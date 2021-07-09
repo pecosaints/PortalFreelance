@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev | Sua plataforma freelance</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/partials/header.css">
+    <link rel="stylesheet" href="styles/partials/forms.css">
+    <link rel="stylesheet" href="styles/partials/page-study.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="page-study">
+
+    <div id="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="/">
+                    <img src="images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="images/text-1620558907965.png" alt="Proffy">
+            </div>
+
+            <div class="header-content">
+                <strong>Esses são os Devs disponíveis</strong>
+                <form id="search-teachers">
+                    <div class="select-block">
+                        <label for="subject">Job</label>
+                        <select name="subject" id="subject">
+                            <option value="" disabled="" hidden="">Selecione uma opção</option>
+                            <option value="1">Front-end</option>
+                            <option value="2">Back-end</option>
+                            <option value="3">Data Science</option>
+                            <option value="4">DevOps</option>
+                            <option value="5">UX & Design</option>
+                            <option value="6">Mobile</option>
+                            <option value="7">Inovação e Gestão</option>
+                            <option value="8">Arte</option>
+                            <option value="9">Identidade Visual</option>
+                            <option value="10">Marketing</option>
+                        </select>
+                    </div>
+                    <div class="select-block">
+                        <label for="weekday">Dia da semana</label>
+                        <select name="weekday" id="weekday">
+                            <option value="" disabled="" hidden="">Selecione uma opção</option>
+                            <option value="0">Domingo</option>
+                            <option value="1">Segunda-feira</option>
+                            <option value="2">Terça-feira</option>
+                            <option value="3">Quarta-Feira</option>
+                            <option value="4">Quinta-feira</option>
+                            <option value="5">Sexta-feira</option>
+                            <option value="6">Sábado</option>
+                        </select>
+                    </div>
+                    <div class="input-block">
+                        <label for="time">Hora</label>
+                        <input name="time" id="time" type="time">
+                    </div>
+                    <button type="submit">Filtrar</button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <article class="teacher-item">
+                <header>
+                    <img src="https://avatars.githubusercontent.com/u/62112031?v=4" alt="Luis Henrique Farina">
+                    <div>
+                        <strong>Luis Henrique Farina</strong>
+                        <span>Engenheiro de Dados</span>
+                    </div>
+                </header>
+                <p>Experiente em SQL e Python e ferramentas ligadas á nuvem para fazer ETL (Glue e Azure Data Factory)<br><br>
+                    Responsável pela criação, design, construção e manutenção dos ambientes de dados, seus sistemas de
+                    processamento e armazenamento.</p>
+                    <footer>
+                        <p>Preço/hora<strong>R$ 90,00</strong>
+                        </p>
+                        <button type="button">
+                            <img src="images/icons/whatsapp.svg" alt="Whatsapp"> Entrar em contato
+                        </button>
+                    </footer>
+            </article>
+
+            <article class="teacher-item">
+                <header>
+                    <img src="https://avatars.githubusercontent.com/u/62112031?v=4" alt="Luis Henrique Farina">
+                    <div>
+                        <strong>Luis Henrique Farina</strong>
+                        <span>Engenheiro de Dados</span>
+                    </div>
+                </header>
+                <p>Experiente em SQL e Python e ferramentas ligadas á nuvem para fazer ETL (Glue e Azure Data Factory).<br><br>
+                    Responsável pela criação, design, construção e manutenção dos ambientes de dados, seus sistemas de
+                    processamento e armazenamento.</p>
+                    <footer>
+                        <p>Preço/hora<strong>R$ 90,00</strong>
+                        </p>
+                        <button type="button">
+                            <img src="images/icons/whatsapp.svg" alt="Whatsapp"> Entrar em contato
+                        </button>
+                    </footer>
+            </article>
+        </main>
+
+    </div>
+
+</body>
+</html>
